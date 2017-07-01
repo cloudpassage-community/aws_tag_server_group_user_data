@@ -48,7 +48,7 @@ A DescribeTags policy looks like:
 3c) Append a tag value (--tag=$tag_value) to the end of the following line in the agent installation script as shown 
 below:  
 
-sudo /opt/cloudpassage/bin/configure --agent-key=<agent_key>  
+sudo /opt/cloudpassage/bin/configure --agent-key=<agent_key>
 --grid=https://grid.cloudpassage.com/grid \\  
 --tag=$tag_value  
 
