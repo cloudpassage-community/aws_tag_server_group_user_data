@@ -48,8 +48,9 @@ A DescribeTags policy looks like:
 3c) Append a tag value (--tag=$tag_value) to the end of the following line in the agent installation script as shown 
 below:  
 
-sudo /opt/cloudpassage/bin/configure --agent-key=<agent_key> 
---grid=https://grid.cloudpassage.com/grid --tag=$tag_value  
+sudo /opt/cloudpassage/bin/configure --agent-key=<agent_key>  
+--grid=https://grid.cloudpassage.com/grid \\  
+--tag=$tag_value  
 
 4) Tag the instance in Add Tags with a key value pair where the key is Name (e.g. Key=Name, Value=Pre-Production)
 
