@@ -6,7 +6,7 @@ Notes
 
 1) This is sample code and is not supported by CloudPassage.  The purpose is to get a user up and running using an AWS tag value to assign
 workloads to Halo server groups.
-2) This has only been tested on Amazon Linux
+2) This has only been tested on Amazon Linux and RHEL 7 Linux
 3) This example only shows how to do this using the AWS console
 
 Description
